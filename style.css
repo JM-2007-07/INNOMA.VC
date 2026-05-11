@@ -1,0 +1,155 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+header
+{
+    width: 1220px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+}
+.headLinks
+{
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btnHead
+{
+    width: 150px;
+    height: 55px;
+    background-color: #07AF91;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+}
+.phoneLink
+{
+    display: none;
+}
+.sec1
+{
+    background-image: url(./Images/uae-4-2048x1367\ 2.png);
+    width: 100%;
+    height: 720px;
+    margin-top: -100px;
+}
+.divS1
+{
+    width: 100%;
+    height: 720px;
+    background-color: #00000096;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.divTS1
+{
+    width: 1220px;
+    height: 351px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.BTN
+{
+    width: 220px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #61B5E4, #016CA8);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.h1TS1
+{
+    width: 750px;
+    font-size: 43px; 
+    font-weight: 700; 
+    display: flex; 
+    flex-direction: column; 
+}
+.pTS1
+{
+    font-size: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:510px) {
+    header
+    {
+        width: 90%;
+    }
+    .headLinks
+    {
+        display: none;
+    }
+    .phoneLink
+    {
+        display: block;
+    }
+    .pHead
+    {
+        font-size: 16px;
+    }
+    .btnHead
+    {
+        width: 88px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .h1TS1
+    {
+        text-align: center;
+        font-size: 24px;
+        width: 90%;
+        margin: auto; 
+        gap: 20px;
+    }
+    .divTS1
+    {
+        width: 90%;
+        margin: auto;
+        align-items: center;
+    }
+    .pTS1
+    {
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .BTN
+    {
+        width: 235px;
+        height: 55px;
+        font-size: 16px;
+    }
+}

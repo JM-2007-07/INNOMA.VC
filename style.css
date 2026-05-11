@@ -80,15 +80,69 @@ header
     font-size: 43px; 
     font-weight: 700; 
     display: flex; 
-    flex-direction: column; 
+    flex-direction: column;
+    gap: 10px; 
 }
 .pTS1
 {
     font-size: 34px;
 }
-
-
-
+.sec2
+{
+    width: 1220px;
+    height: 1070px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.h1S2
+{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1178B2;
+}
+.dicServiseS2
+{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.textSS2
+{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pSS2
+{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1178B2;
+}
+.pSS2_1
+{
+    font-size: 20px;
+    font-weight: 300;
+}
+.btnSS2
+{
+    width: 326px;
+    height: 70px;
+    background-color: #07AF91;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+}
+.sec2_1
+{
+    display: none;
+}
 
 
 
@@ -152,4 +206,33 @@ header
         height: 55px;
         font-size: 16px;
     }
+    .sec2
+    {
+        display: none;
+    }
+    .sec2_1
+    {
+        width: 320px;
+        height: 1325px;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .divS2_1
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+    .textSS2
+    {
+        width: 100%;
+        text-align: center;
+        gap: 30px;
+    }
+    
 }

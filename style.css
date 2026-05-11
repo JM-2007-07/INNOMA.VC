@@ -168,7 +168,7 @@ header
     display: flex;
     flex-direction: column;
     padding: 40px;
-    justify-content: end;
+    justify-content: center;
     gap: 20px;
     align-items: center;
     box-shadow: 0px 0px 30px #00000017;
@@ -184,6 +184,7 @@ header
     {
         width: 100%;
         height: 604px;
+        margin-top: 70px;
         background-image: url(./Images/startup\ 3.png);
     }
 .divS4
@@ -256,8 +257,28 @@ header
     border-left: 1px solid #CFDDEB;
     background-color: #EEF1F4;
 }
-
-
+.sec5_1
+{
+    display: none;
+}
+.sec6
+{
+    width: 1220px;
+    height: 1154px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pS6
+{
+    font-size: 20px;
+}
+.imgS6_1
+{
+    display: none;
+}
 
 
 
@@ -389,5 +410,37 @@ header
     #BTN2
     {
         display: none;
+    }
+    .sec5
+    {
+        display: none;
+    }
+    .sec5_1
+    {
+        margin: auto;
+        margin-top: 100px;
+    }
+    .sec6
+    {
+        width: 90%;
+        align-items: center;
+        gap: 20px;
+        text-align: center;
+    }
+    .h1S2
+    {
+        font-size: 24px;
+    }
+    .pS6
+    {
+        font-size: 14px;
+    }
+    .imgS6
+    {
+        display: none;
+    }
+    .imgS6_1
+    {
+        display: block;
     }
 }

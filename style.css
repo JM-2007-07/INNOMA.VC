@@ -503,6 +503,35 @@ header
 {
     display: none;
 }
+.sec14
+{
+    width: 1220px;
+    height: 431px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.divS14
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.s12Profile
+{
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+.imgS14_1
+{
+    display: none;
+}
 
 
 
@@ -809,5 +838,20 @@ header
     {
         display: block;
         margin-top: 50px;
+    }
+    .divS14
+    {
+        display: none;
+    }
+    .imgS14_1
+    {
+        display: block;
+        width: 370px;
+        height: 290px;
+    }
+    .sec14
+    {
+        width: 90%;
+        
     }
 }

@@ -389,6 +389,54 @@ header
     box-shadow: 0px 0px 30px #00000017;
     text-align: center;
 }
+.sec10
+{
+    width: 1220px;
+    height: 913px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.divS10
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.s10Box
+{
+    width: 332px;
+    height: 738px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #00000017;
+}
+.s10Analiz
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.s10Enter
+{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    padding-bottom: 20px;
+    text-align: center;
+}
 
 
 
@@ -630,5 +678,15 @@ header
         width: 320px;
         gap: 15px;
     }
-
+    .sec10
+    {
+        width: 90%;
+        margin-top: 1200px;
+    }
+    .divS10
+    {
+        width: 100%;
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
 }

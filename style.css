@@ -181,22 +181,22 @@ header
     color: #1178B280;
 }
 .sec4
-    {
-        width: 100%;
-        height: 604px;
-        margin-top: 70px;
-        background-image: url(./Images/startup\ 3.png);
-    }
+{
+    width: 100%;
+    height: 604px;
+    margin-top: 70px;
+    background-image: url(./Images/startup\ 3.png);
+}
 .divS4
 {
-        width: 100%;
-        height: 604px;
-        background-color: #00000096;
-        display: flex;
-        flex-direction: column;
-        row-gap: 40px;
-        justify-content: center;
-        align-items: center;
+    width: 100%;
+    height: 604px;
+    background-color: #00000096;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
     font-size: 36px;
     font-weight: 700;
     color: white;
@@ -549,6 +549,42 @@ header
 {
     display: none;
 }
+.sec16
+{
+    width: 100%;
+    height: 563px;
+    margin-top: 70px;
+    background-image: url(./Images/Rectangle\ 1992.png);
+}
+.divS16
+{
+    width: 100%;
+    height: 563px;
+    background-color: #00000096;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+
+}
+.textS16
+{
+    width: 1220px;
+    text-align: center;
+    color: white;
+
+}
+.pS16
+{
+    font-size: 20px;
+    width: 761px;
+    text-align: center;
+}
+
 
 
 
@@ -891,4 +927,20 @@ header
         display: flex;
         width: 100%;
     }
+        .sec16
+    {
+        margin-top: 70px;
+    }
+    .textS16
+    {
+        width: 90%;
+        font-size: 24px;
+    }
+    .pS16
+    {
+        font-size: 14px;
+        width: 70%;
+        text-align: center;
+    }
+
 }

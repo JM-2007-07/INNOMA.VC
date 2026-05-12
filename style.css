@@ -532,6 +532,23 @@ header
 {
     display: none;
 }
+.link14_1
+{
+    display: none;
+}
+.sec15
+{
+    width: 1220px;
+    height: 431px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.imgS15_1
+{
+    display: none;
+}
 
 
 
@@ -852,6 +869,26 @@ header
     .sec14
     {
         width: 90%;
-        
+        gap: 20px;
+    }
+    .link14_1
+    {
+        display: flex;
+        margin-left: 130px;
+        gap: 50px;
+    }
+    .sec15
+    {
+        width: 90%;
+        align-items: center;
+    }
+    .imgS15
+    {
+        display: none;
+    }
+    .imgS15_1
+    {
+        display: flex;
+        width: 100%;
     }
 }

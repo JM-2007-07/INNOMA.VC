@@ -491,7 +491,18 @@ header
     flex-direction: column;
     justify-content: space-between;
 }
-
+.sec13
+{
+    width: 1220px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.sec13_1
+{
+    display: none;
+}
 
 
 
@@ -789,5 +800,14 @@ header
     .TS12
     {
         align-items: end;
+    }
+    .sec13
+    {
+        display: none;
+    }
+    .sec13_1
+    {
+        display: block;
+        margin-top: 50px;
     }
 }
